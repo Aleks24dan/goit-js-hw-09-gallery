@@ -55,7 +55,7 @@ function onKeyEscPress(event) {
 }
 }
 
-function onArrowBtnPress(event) {
+export function onArrowBtnPress(event) {
   if (event.code === 'ArrowRight') {    
     if (indexlightboxImage === arrCdn.length-1) {
        indexlightboxImage = -1 ;
